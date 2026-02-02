@@ -21,9 +21,9 @@ yesBtn.addEventListener("click", (e) => {
       <img src="https://media.tenor.com/vhxp8VLoMOwAAAAM/hug-love.gif">
 
       <h2>Yay!</h2>
-      <p><strong>Tired of playing therapist for your single friends?</strong></p>
-      <button onclick="alert('Share this link 😉')">
-        then click here!!!
+      <p><strong> SEE YOU SOON :) </strong></p>
+      <button onclick="alert('For tabby^s eyes only 😉')">
+        Click Here!!!
       </button>
     </div>
   `;
