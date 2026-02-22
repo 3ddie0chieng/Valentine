@@ -22,7 +22,7 @@ yesBtn.addEventListener("click", (e) => {
 
       <h2>Yay!</h2>
       <p><strong> SEE YOU SOON :) </strong></p>
-      <button onclick="alert('For tabby^s eyes only 😉')">
+      <button onclick="alert('For tabby\'s eyes only 😉')">
         Click Here!!!
       </button>
     </div>
