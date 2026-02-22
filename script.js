@@ -32,5 +32,5 @@ yesBtn.addEventListener("click", (e) => {
 // NO → playful message (no popups)
 noBtn.addEventListener("click", (e) => {
   e.stopPropagation();
-  text.innerText = "Think again 😌💖";
+  text.innerText = "Please reconsider 😌💖";
 });
