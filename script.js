@@ -22,11 +22,19 @@ yesBtn.addEventListener("click", (e) => {
 
       <h2>Yay!</h2>
       <p><strong> SEE YOU SOON :) </strong></p>
-      <button onclick="alert('For tabby\'s eyes only 😉')">
+      <button class="result-btn">
         Click Here!!!
       </button>
     </div>
   `;
+
+  const resultBtn = card.querySelector('.result-btn');
+  if (resultBtn) {
+    resultBtn.addEventListener('click', (ev) => {
+      ev.stopPropagation();
+      alert("For tabby's eyes only 😉");
+    });
+  }
 });
 
 // NO → playful message (no popups)
